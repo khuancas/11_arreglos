@@ -3,8 +3,10 @@ using namespace std;
 
 int main (){
     int n,max,A[20];
+    cout<<"Ingrese la cantidad de números que desee ingresar: ";
     cin>>n;
     for (int i=0;i<n;i++){
+        cout<<"Ingrese el número: ";
         cin>>A[i];
     }
     max=A[0];
@@ -13,5 +15,5 @@ int main (){
             max=A[i];
         }
     }
-    cout<<max;
+    cout<<"El mayor número es: "<<max;
 }
