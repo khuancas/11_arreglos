@@ -14,6 +14,7 @@ int main (){
     prom=s/n;
     for ( int i=1; i<=n;i++){
         if (A[i]>prom){
+            cout<<"Los números mayores al promedio son: "<<endl;
             cout<<A[i]<<endl;
         }
     }
